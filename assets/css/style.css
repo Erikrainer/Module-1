@@ -1,29 +1,69 @@
+/* Start General Styles */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; 
+    padding: 0; /* set the padding to 0 pixel */
+    margin: 0; /* set the margin to 0 pixel */
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* set the background color to light grey */
 }
 
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-header h1 {
+/* below are style rules for all h1 tags in the document */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header i {
-    color: #d9dcd6;
+/* below are style rules for all h2 tags in the document */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
+/* below are style rules for all h3 tags in the document */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    color: #ffffff; /* every 'a' element become white*/
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px; /* font size for 'p' elements */
+}
+
+/* below a function to float img to left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* below a function to float img to right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* End General Styles */
+
+/* Start Header Styles */
+
+/* below are style rules for all header tags */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff; /* color set to white */
+}
+
+
+header i {
+    color: #d9dcd6; /* color light grey for 'seo' */
+}
+
+/* below are style rules for ul tags inside the header */
 header ul {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,45 +73,49 @@ header ul {
     list-style-type: none;
 }
 
+/* below are style rules for li tags insider the header */
 header li {
     display: inline-block;
     margin-left: 25px;
 }
+/* End Header Styles */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+/* Start Main Styles */
 
-p {
-    font-size: 16px;
-}
-
-.main-image {
-    height: 800px;
-    width: 100%;
+/* below style rules to digital marketing meeting image */
+.digital-marketing-meeting {
+    height: 800px; /* set height to 800 pixels */
+    width: 100%; /* set width to 100% */
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* it locate the image */
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* general rules for main */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* below are style rules for articles inside main */
+main article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb; /* set the background color to French Blue */
+    color: #ffffff; /* set the color to white */
+}
+
+/* below are style rules for img inside main */
+main img {
+    max-height: 200px;
+}
+/* End Main Styles */
+
+/* Start Aside Styles */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -80,55 +124,21 @@ aside {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+    background-color: #2589bd; /* set the background color to Glacial Blue Ice */
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; /* set the color to white */
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+/* below are style rules for img inside aside */
+aside img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
     max-height: 200px;
 }
+/* End Aside Styles */
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* below style rules for footer */
 footer {
     font-size: 20px;
     padding: 30px;
