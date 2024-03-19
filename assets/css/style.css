@@ -1,4 +1,4 @@
-/* Start General Styles */
+/* Start Universal Styles */
 * {
     box-sizing: border-box; 
     padding: 0; /* set the padding to 0 pixel */
@@ -47,7 +47,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-/* End General Styles */
+/* End Universal Styles */
 
 /* Start Header Styles */
 
@@ -101,7 +101,7 @@ main {
 }
 
 /* below are style rules for articles inside main */
-main article {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;

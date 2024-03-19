@@ -1,6 +1,24 @@
 # Repo Created to test Assignments
-This Repo was created by me so i could use to try my assignments in the bootcamp, its a good source where i can try my acknowloge about the course, here i`ll send a lot of files to try the commands and the codes.
+Repo created to do the module-1 challenge from the bootcamp, it`s refactoring so i already have the code and everything working fine, but the code do not have any accessibility and comments.
 
-## First Index.html changes
+## User Story 
 
-This index changes i made it`s for the frist Challenge of the Module 1, i don`t know what i need to do so i just did the firts part, first i put the started code in the index, and created the assets folder with all the css files and the images files.
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+
+## Acceptance Criteria
+
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the icon and image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+
+
