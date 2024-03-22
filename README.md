@@ -1,24 +1,21 @@
-# Repo Created to test Assignments
-Repo created to do the module-1 challenge from the bootcamp, it`s refactoring so i already have the code and everything working fine, but the code do not have any accessibility and comments.
+# Horiseon Challenge
 
-## User Story 
+## Description
 
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+For this challenge it was a on-the-job ticket, so i got the starter code that i needed to modify, it was a mess in acessibility way so was necessary to check all the semantics and the CSS code to improve and adapt to the new HTML code, as necessary for this challenge, we would like to have a codebase that follows the acessibility standards and make the site optimized for search engines.
 
-## Acceptance Criteria
+## Installation
 
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+N/A
 
+## Usage
 
+For this website, try to click on the header content to get in the sections, and you can review the code including the semantic and the style sheets you just need to Open the Chrome Devtools by pressing Commang+Option+I (macOS) or Control+Shift+I (Windows), Right Mouse buttom and select Inspect should work too. A console panel should open either below or to the side of the webpage in the browser.
+
+## Credits
+
+N/A
+
+## License
+
+MIT License.

@@ -84,13 +84,12 @@ header li {
 /* Start Main Styles */
 
 /* below style rules to digital marketing meeting image */
-.digital-marketing-meeting {
+figure img{
     height: 800px; /* set height to 800 pixels */
     width: 100%; /* set width to 100% */
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg"); /* it locate the image */
-    background-size: cover;
-    background-position: center;
+    margin-bottom: 25px;  
+    background-size: cover; /* set the image to cover the page */
+    background-position: center; /* center the image in the screen */
 }
 
 /* general rules for main */
